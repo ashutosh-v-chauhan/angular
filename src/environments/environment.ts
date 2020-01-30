@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: 'https://mpp-ui-frontend-mpp-build.paas-dev-njrar-02.ams1907.com/',
+  config: {
+    tenant: 'e7520e4d-d5a0-488d-9e9f-949faae7dce8',
+    clientId: '0d079c33-493b-409c-8264-45765f09471d',
+    endpoints: 'https://mpp-ui-frontend-mpp-build.paas-dev-njrar-02.ams1907.com/'
+  }   
 };
 
 /*
